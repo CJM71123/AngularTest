@@ -31,5 +31,9 @@
                         }
                     });
                 }
+
+                $scope.showLabOrderList = function() {
+                    $state.go('main');
+                }
             }
         ]);
